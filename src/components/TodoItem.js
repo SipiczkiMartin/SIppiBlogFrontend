@@ -18,7 +18,10 @@ class TodoItem extends React.Component{
         }
     }
 
-
+    //for cleanup/ freeing memory, and so on.. here this is called after the delete button is clicked
+    componentWillUnmount(){
+        console.log("Cleaning up...")
+    }
 
     render(){
         const completedStyle = {
