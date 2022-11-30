@@ -1,5 +1,6 @@
 //in function based react we have to import the hooks like here with useState
 import React, { useState } from "react"
+import { FaPlusCircle } from "react-icons/fa"
 
 //adding const server as static..... don't need to use this. 
 const InputTodo = props =>{
@@ -41,7 +42,11 @@ const InputTodo = props =>{
                 onChange={onChange}
                 name="title"
             />
-            <button className="input-submit">Submit</button>
+            <button className="input-submit">
+            <FaPlusCircle
+                 style={{ color: "darkcyan", fontSize: "20px", marginTop: "2px" }}
+            />
+            </button>
         </form>
     )
 }

@@ -68,3 +68,12 @@ const InputTodo = props => {
 }
 
 export default InputTodo
+
+/////////////////////////////////////
+
+for using svg icons in the project we can use 
+https://react-icons.github.io/react-icons/icons?name=fa
+
+here we can choose the icons we want and import them in ES6 style
+
+!!! need to import the lib: npm install react-icons
