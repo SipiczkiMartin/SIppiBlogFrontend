@@ -77,3 +77,9 @@ https://react-icons.github.io/react-icons/icons?name=fa
 here we can choose the icons we want and import them in ES6 style
 
 !!! need to import the lib: npm install react-icons
+
+ROUTING
+npm install react-router-dom
+
+look into index.js for more
+!! in v6 we don't specify Route in the element itself but in the index.js.. we have to provide ROute with path and element !!!!!!

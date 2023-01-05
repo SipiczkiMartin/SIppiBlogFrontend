@@ -88,10 +88,10 @@ const TodoContainer = () =>{
                   handleChangeProps={handleChange}
                   deleteTodoProps={delTodo}
                   setUpdate={setUpdate}
-                 />
+                  />
                 </div>
             </div>
-    );
+    )
     
 }
 
